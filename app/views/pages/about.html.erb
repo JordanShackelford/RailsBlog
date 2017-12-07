@@ -1,0 +1,27 @@
+<head>
+	<style>
+		*{
+			box-sizing:border-box;
+			margin:0;
+			padding:0;
+		}
+		body{
+			color:white;
+			text-shadow:1px 1px 1px black;
+			background:linear-gradient(45deg, red, maroon) fixed;
+			text-align:center;
+			border-radius:5px;
+			padding:20px;
+			border:3px ridge white;
+			margin:20px;
+
+			/* subtract double the margin because margin applies to top and bottom */
+			height:calc(100vh - 40px);
+		}
+	</style>
+</head>
+
+<body>
+	<h1><%= @title %></h1>
+	<p><%= @content %></p>
+</body>
