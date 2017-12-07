@@ -13,3 +13,4 @@ Create a blog post with a title and body that is stored in sqlite database. Clic
 4. Create db `rake db:create`
 5. Migrate schema `rake db:migrate`
 6. Run the app `rails s`
+7. Direct browser to localhost:3000
