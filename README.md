@@ -5,7 +5,7 @@
 
 Create a blog post with a title and body that is stored in sqlite database. Click home to see all blog posts
 
-####Instructions: 
+#### Instructions: 
 
 1. Clone the repo
 2. Make sure ruby is installed (`ruby -v`, `rails -v`)
