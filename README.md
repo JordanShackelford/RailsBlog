@@ -3,6 +3,7 @@
 
 ![Screenshot](screenshot.png?raw=true "Screenshot")
 
+Work in progresss simple CRUD/blogging application.
 Create a blog post with a title and body that is stored in sqlite database. Click home to see all blog posts
 
 #### Instructions: 

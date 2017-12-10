@@ -1,25 +1,31 @@
+<style>
+	h1{
+		text-align:center;
+	}
+</style>
+
 <body>
 	<h1>Add post</h1>
-	<%= form_for :post, url: posts_path, :html => {:class => "jumbotron"} do |f|%>
+	<%= form_for :post, url: posts_path, :html => {:class => "card card-primary"} do |f|%>
 		<% if @post.errors.any? %>
 			<% @post.errors.full_messages.each do |msg| %>
 				<div class="alert alert-danger"><%= msg %></div>
 			<% end %>
 		<% end %>
 
-		<p>
+		<p class="card">
 			<%= f.label :title %><br>
 			<%= f.text_field(:title,{:class => 'form-control'}) %>
 		</p>
 
-		<p>
+		<p class="card">
 			<%= f.label :body %><br>
 			<%= f.text_area(:body,{:class => 'form-control'}) %>
 		</p>
 
 		<p>
 			
-			<%= f.submit({:class => "btn btn-outline-success"}) %>
+			<%= f.submit({:class => "btn btn-primary float-right"}) %>
 		</p>
 	<% end %>
 </body>
