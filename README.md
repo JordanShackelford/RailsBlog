@@ -1,17 +1,24 @@
-# RailsBlog
+# README
 
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-![Screenshot](screenshot.png?raw=true "Screenshot")
+Things you may want to cover:
 
-Work in progresss simple CRUD/blogging application.
-Create a blog post with a title and body that is stored in sqlite database. Click home to see all blog posts
+* Ruby version
 
-#### Instructions: 
+* System dependencies
 
-1. Clone the repo
-2. Make sure ruby is installed (`ruby -v`, `rails -v`)
-3. Install dependencies with `bundle install`
-4. Create db `rake db:create`
-5. Migrate schema `rake db:migrate`
-6. Run the app `rails s`
-7. Direct browser to localhost:3000
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
